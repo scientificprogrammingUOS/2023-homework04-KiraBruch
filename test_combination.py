@@ -34,7 +34,7 @@ def test_combination():
     a = np.array([[[[1, 2], [3, 4], [5, 6]]]])
     b = np.ones((2,2))
 
-    result = testfile.combination(a,b)
+    result = testfile.combine(a,b)
 
     assert sha1(result).hexdigest(
     ) == '5709b4ea8b49ac48d42ae3e0bd1b3fb0dbb3249b', 'Your function does not return the right result!'
